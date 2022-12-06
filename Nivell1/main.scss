@@ -1,8 +1,57 @@
-$primary:#5265E1 ;
-$secondary: #FA5959;
+$primary: #5265e1;
+$secondary: #fa5959;
 
+.blueFigure {
+  background-color: $primary;
+  width: 70%;
+  top: 100px;
+  height: 300px;
+  left: 200px;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index: -3;
+}
+.nav-link.active {
+  color: black !important;
+  border-bottom: 4px solid #fa5959 !important;
+  padding-bottom: 12px !important;
+}
+.hoverNav {
+  border: 0px;
+}
 
+.colorRed:hover {
+  color: $primary !important;
+}
+.blueFigure2 {
+  background-color: $primary;
+  width: 100rem;
+  height: 70%;
+  right: 15%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
+  border-radius: 0 200px 200px 0;
+}
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
 
+.accordion-button::after {
+  background-image: url("../Imagenes/icon-arrow.svg") !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  box-shadow: none !important;
+  color: black !important;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: invert(47%) sepia(95%) saturate(1098%) hue-rotate(324deg)
+    brightness(97%) contrast(102%);
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap/scss/variables"
+@import "../node_modules/bootstrap/scss/variables";
