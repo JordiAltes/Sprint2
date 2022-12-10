@@ -54,7 +54,7 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-  filter: invert(47%) sepia(95%) saturate(1098%) hue-rotate(324deg) brightness(97%) contrast(102%);
+  filter: invert(47%) sepia(96%) saturate(1098%) hue-rotate(324deg) brightness(97%) contrast(102%);
 }
 
 /*!
