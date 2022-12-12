@@ -43,7 +43,7 @@
 }
 
 .social-icon:hover {
-  color: #fa5959 !important;
+  filter: invert(80%) sepia(100%) saturate(2596%) hue-rotate(341deg) brightness(80%) contrast(99%);
 }
 
 .colorRed:hover {
