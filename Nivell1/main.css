@@ -10,18 +10,44 @@
   z-index: -3;
 }
 
+.nav-link {
+  color: black !important;
+}
+
 .nav-link.active {
   color: black !important;
   border-bottom: 4px solid #fa5959 !important;
   padding-bottom: 12px !important;
 }
 
+.nav-link:hover {
+  color: #fa5959 !important;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  color: #5265e1 !important;
+}
+
+.dropdown-toggle-split:hover {
+  color: #fa5959 !important;
+}
+
 .hoverNav {
   border: 0px;
 }
 
+.btn-secondary:hover {
+  background-color: white !important;
+  color: #fa5959 !important;
+}
+
+.social-icon:hover {
+  color: #fa5959 !important;
+}
+
 .colorRed:hover {
-  color: #5265e1 !important;
+  color: #fa5959 !important;
 }
 
 .blueFigure2 {

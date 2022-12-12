@@ -11,17 +11,37 @@ $secondary: #fa5959;
   position: absolute;
   z-index: -3;
 }
+
+.nav-link{
+    color: black !important;
+}
 .nav-link.active {
   color: black !important;
   border-bottom: 4px solid #fa5959 !important;
   padding-bottom: 12px !important;
 }
+.nav-link:hover{
+    color: $secondary !important;
+}
+.btn-primary:hover{
+    background-color: white !important;
+    color: $primary !important;
+}
+.dropdown-toggle-split:hover{
+    color: $secondary !important;
+}
 .hoverNav {
   border: 0px;
 }
-
+.btn-secondary:hover {
+    background-color: white !important;
+    color: $secondary !important;
+}
+.social-icon:hover{
+    color: $secondary !important;
+}
 .colorRed:hover {
-  color: $primary !important;
+  color: $secondary !important;
 }
 .blueFigure2 {
   background-color: $primary;
